@@ -1,1 +1,1 @@
-include ':app', ':lihuanhuan20190102', ':viewyuan_20190102'
+include ':app', ':lihuanhuan20190102', ':viewyuan_20190102', ':day7_20190103'

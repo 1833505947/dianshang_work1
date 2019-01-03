@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <declare-styleable name="MyView">
+       <attr name="radius" format="dimension"></attr>
+       <attr name="color" format="color"></attr>
+   </declare-styleable>
+<declare-styleable name="SearchView">
+    <attr name="searchColor" format="color"></attr>
+    <attr name="searchSize" format="dimension"></attr>
+</declare-styleable>
+<declare-styleable name="CircleRoundImageView">
+
+</declare-styleable>
+</resources>

@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
             mLine.addView(textView);
 
         }
-        mMyview.invalidate();//重绘，直接触发onDraw()方法，只能在主线程通知重绘
-        mMyview.postInvalidate();//重绘，直接触发onDraw()方法，面试题，区别，子线程可以通知重绘
+       // mMyview.invalidate();//重绘，直接触发onDraw()方法，只能在主线程通知重绘
+        //mMyview.postInvalidate();//重绘，直接触发onDraw()方法，面试题，区别，子线程可以通知重绘
     }
 
     private void initView() {

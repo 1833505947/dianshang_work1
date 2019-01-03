@@ -47,9 +47,9 @@ public class MyView extends View {
         paint = new Paint();
         paint.setColor(Color.GREEN);
         paint.setAntiAlias(true);//抗锯齿
-        paint.setStyle(Paint.Style.FILL);//实心
-//        paint.setStyle(Paint.Style.FILL_AND_STROKE);//空心
-//        paint.setStrokeWidth(20);//空心圆环宽20
+        //paint.setStyle(Paint.Style.FILL);//实心
+       paint.setStyle(Paint.Style.FILL_AND_STROKE);//空心
+        paint.setStrokeWidth(20);//空心圆环宽20
     }
 
    /* public MyView(Context context, @androidx.annotation.Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
